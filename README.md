@@ -2,18 +2,9 @@
 GOALS:
 -	Phần mềm dạng ứng dụng cho máy tính cá nhân.
 - Người sử dụng: nhân viên lễ tân, nhân viên bán hàng, quản lí khách sạn.
--	Nhân viên lễ tân có chức năng:
-  + Tìm phòng trống theo yêu cầu trực tiếp của khách, 
-  + Checkin cho khách đã đặt phòng hoặc đặt phòng trực tiếp, 
-  + Checkout cho khách và in hóa đơn thanh toán cho khách.
--	Nhân viên bán hàng có chức năng: 
-  + Tìm phòng trống 
-  + Đặt phòng theo yêu cầu của khách.
--	Quản lí có chức năng: 
-  + Thêm/sửa/xóa thông tin phòng, 
-  + Xem các báo cáo doanh thu theo thời gian/theo phòng/theo loại phòng,
-  + Xem báo cáo tỉ lệ phòng trống theo thời gian/theo phòng/theo loại phòng, 
-  + Xem báo cáo khách hàng đặt nhiều theo thời gian/theo nguồn gốc khách hàng.
+-	Nhân viên lễ tân có chức năng: tìm phòng trống theo yêu cầu trực tiếp của khách, checkin cho khách đã đặt phòng hoặc đặt phòng trực tiếp, checkout cho khách và in hóa đơn thanh toán cho khách.
+-	Nhân viên bán hàng có chức năng: tìm phòng trống và đặt phòng theo yêu cầu của khách.
+-	Quản lí có chức năng: thêm/sửa/xóa thông tin phòng, xem các báo cáo doanh thu theo thời gian/theo phòng/theo loại phòng, xem báo cáo tỉ lệ phòng trống theo thời gian/theo phòng/theo loại phòng, xem báo cáo khách hàng đặt nhiều theo thời gian/theo nguồn gốc khách hàng.
 -	Thông tin về khách sạn bao gồm : tên, địa chỉ, số sao, mô tả (bao gồm mô tả bằng text và bằng hình ảnh).
 -	Trong khách sạn có nhiều phòng, mỗi phòng được mô tả bằng các thông tin: tên phòng (duy nhất, để phân biệt các phòng), loại phòng, giá niêm yết, các loại dịch vụ đi kèm, mô tả phòng.
 -	Mỗi khách hàng, khi đến ở hoặc đặt phòng, sẽ được lưu các thông tin bao gồm số CMND (số passport nếu là người nước ngoài), loại giấy tùy thân (CMND, passport), họ tên đầy đủ, địa chỉ, số điện thoại, ghi chú về phục vụ đặc biệt như cho người khuyết tật, ăn chay...
